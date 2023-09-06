@@ -9,9 +9,39 @@ body{
 
 .menu{
     display: flex;
-    border-bottom: solid black;
     background: white;
     color: black;
     padding: 50px;
     justify-content: space-around;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+#logo{
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    border: solid saddlebrown;
+}
+
+#container_logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    z-index: 9999999;
+}
+
+#bry{
+    margin-top: 200px;
+    margin-left: 50px;
+    height: 650px;
+    width: 500px;
+}
+
+#Quem_Somos{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 500px;
+    height: 600px;
+    
 }
